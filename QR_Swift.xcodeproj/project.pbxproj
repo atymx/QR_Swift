@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A823D9C20B49B53001898E3 /* GetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A823D9B20B49B53001898E3 /* GetVC.swift */; };
 		2A823D9E20B49BB9001898E3 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A823D9D20B49BB9001898E3 /* Base.swift */; };
+		2A823DA020B49D33001898E3 /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A823D9F20B49D33001898E3 /* SendVC.swift */; };
 		2AC7E4F620B48CEA007486C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7E4F520B48CEA007486C5 /* AppDelegate.swift */; };
 		2AC7E4FB20B48CEA007486C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC7E4F920B48CEA007486C5 /* Main.storyboard */; };
 		2AC7E4FD20B48CEC007486C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC7E4FC20B48CEC007486C5 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		18C1A7953C51DFB1D798689C /* Pods_QR_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A823D9B20B49B53001898E3 /* GetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVC.swift; sourceTree = "<group>"; };
 		2A823D9D20B49BB9001898E3 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		2A823D9F20B49D33001898E3 /* SendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendVC.swift; sourceTree = "<group>"; };
 		2AC7E4F220B48CEA007486C5 /* QR_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC7E4F520B48CEA007486C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC7E4FA20B48CEA007486C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				2AC7E50120B48CEC007486C5 /* Info.plist */,
 				2A823D9B20B49B53001898E3 /* GetVC.swift */,
 				2A823D9D20B49BB9001898E3 /* Base.swift */,
+				2A823D9F20B49D33001898E3 /* SendVC.swift */,
 			);
 			path = QR_Swift;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				2A823D9E20B49BB9001898E3 /* Base.swift in Sources */,
 				2AC7E4F620B48CEA007486C5 /* AppDelegate.swift in Sources */,
+				2A823DA020B49D33001898E3 /* SendVC.swift in Sources */,
 				2A823D9C20B49B53001898E3 /* GetVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

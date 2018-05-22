@@ -84,7 +84,7 @@
         <!--Перевести-->
         <scene sceneID="BWn-yN-I7m">
             <objects>
-                <viewController title="Перевести" id="sYv-59-8r5" sceneMemberID="viewController">
+                <viewController title="Перевести" id="sYv-59-8r5" customClass="SendVC" customModule="QR_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DSJ-Zv-5bQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,6 +108,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tN4-ms-Zze"/>
                     </view>
+                    <connections>
+                        <outlet property="statusField" destination="r7t-pS-gRO" id="Pf9-dT-QnS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rl4-Vw-v33" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
